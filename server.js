@@ -11,9 +11,9 @@ const PORT = 3020;
 //TODO: get from .env file
 const client_id = process.env.CLIENT_ID; 
 const client_secret = process.env.CLIENT_SECRET; 
-// const redirect_uri = `http://mooselliot.com:${PORT}/callback`
-const domain = `http://localhost:${PORT}`;
-const redirect_uri = `${domain}/callback`
+const redirect_uri = `http://mooselliot.com:${PORT}/callback`
+// const domain = `http://localhost:${PORT}`;
+// const redirect_uri = `${domain}/callback`
 
 console.log(`retrieved .env values: ${client_id} ${client_secret}`);
 
